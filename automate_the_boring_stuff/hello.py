@@ -1,4 +1,4 @@
-#This porgram says hello and asks for my name.
+#This program says hello and asks for my name.
 
 print('Hello, world!')
 print('What is your name?') #ask for their name
@@ -8,4 +8,5 @@ print('The length of your name is:')
 print(len(myName))
 print('What is your age?')  #ask for their age
 myAge = input()
-print('You will be ' + str(int(myAge) + 1) + ' in a year')
+mynewAge = int(myAge)+2
+print('You will be ' + str(int(myAge) + 1) + ' in a year. Or ' + str(mynewAge) + ' in two years!')
